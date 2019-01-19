@@ -95,17 +95,17 @@ const MapWithASearchBox = compose(
     >
       <input
         type="text"
-        placeholder="Customized your placeholder"
+        placeholder="Search The Green Book"
         style={{
           boxSizing: `border-box`,
           border: `1px solid transparent`,
           width: `240px`,
-          height: `32px`,
-          marginTop: `27px`,
+          height: `40px`,
+          marginTop: `10px`,
           padding: `0 12px`,
-          borderRadius: `3px`,
-          boxShadow: `0 2px 6px rgba(0, 0, 0, 0.3)`,
-          fontSize: `14px`,
+          borderRadius: `2px`,
+          boxShadow: `rgba(0, 0, 0, 0.3) 0px 1px 4px -1px`,
+          fontSize: `16px`,
           outline: `none`,
           textOverflow: `ellipses`,
         }}
