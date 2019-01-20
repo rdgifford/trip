@@ -16,6 +16,7 @@ import { SearchBox } from "react-google-maps/lib/components/places/SearchBox"
 import './App.css';
 
 const googleMapAPIRoot = 'https://maps.googleapis.com/maps/api/js'
+const googleMapAPIKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY
 
 // Google Maps API url w/ querystrings
 const googleMapURL = googleMapAPIRoot.concat('?', 
